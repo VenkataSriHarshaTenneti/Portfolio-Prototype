@@ -1,2 +1,2 @@
 # Portfolio-Prototype
-Building portfolio using Django.
+Building basic portfolio-protoype using Django.
