@@ -1,1 +1,148 @@
+{% load static %}
 
+<!-- <h2>DJANGO</h2>
+
+<img src="{% static 'images/Sri_Harsha.jpg' %}" alt="my image" />
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sri Harsha</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body h-100 border-info" id="profile-wrapper">
+            <img
+              id="profile-pic"
+              src="{% static 'images/Sri_Harsha.jpg' %}"
+              alt="my image"
+            />
+            <hr />
+            <h4>Hi I'm Sri Harsha!</h4>
+            <p>I love coding and learning</p>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="card card-body h-100 border-info">
+            <h4>My first job as a Software employee</h4>
+            <hr />
+            <p>
+              Engineered Python-based data validation and ingestion workflows
+              for an enterprise SaaS platform processing 100K+ daily customer
+              and credit records from distributed cloud-based source systems for
+              a US oil & gas client.
+            </p>
+            <p>
+              Designed automated reconciliation pipelines for ingestion
+              validation, duplicate detection, missing dataset identification,
+              and transactional consistency checks, reducing manual operational
+              monitoring effort by 2–3 hours daily.
+            </p>
+            <p>
+              Optimized SQL Server queries, validation scripts, and data
+              verification workflows across high-volume datasets, reducing issue
+              investigation time by ~35% and improving operational efficiency.
+            </p>
+
+            <ul class="social-links">
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/linkedin.jpg' %}"
+                  alt="LinkeIn"
+                />
+              </li>
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/github.png' %}"
+                  alt="GitHub"
+                />
+              </li>
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/Instagram.png' %}"
+                  alt="Instagram"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h4>My experience as a Software employee</h4>
+            <hr />
+            <p>Project Engineer at Wipro</p>
+            <p>
+              Building backend services and enterprise SaaS applications using
+              Python, SQL, FastAPI, and PostgreSQL. Experienced in developing
+              scalable data processing systems handling 100K+ daily records,
+              optimizing APIs and SQL queries.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h4>What I know</h4>
+            <hr />
+            <p>
+              Python, Django, HTML/CSS, Javascript/Jquery, React, Postgres, AWS,
+              FastApi, BI tools and APIs such as google maps and whole bunch
+              more, can't keep everything in one sentense!
+            </p>
+            <p>PS: working on Django, GenAI and DSA</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>How I learn</h5>
+            <hr />
+            <p>Reverse Engineer and build ugly prototypes First.</p>
+            <p>
+              I am a curious person, I want to learn everything deep so keep
+              asking questions to myself why does this work the way it is and
+              what if we do something to it? what happens then?
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>My Short Term Goals</h5>
+            <hr />
+            <p>
+              Almost 2 years spending time in learning things, I'm getting ready
+              to get into a challenging development field where I can work with
+              a bigger team with whom I can grow even more.
+            </p>
+            <p>
+              Aside from learning and looking to upskill. I'd like play games
+              and sometimes contemplating about how to get better at things that
+              I do on a daily basis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
